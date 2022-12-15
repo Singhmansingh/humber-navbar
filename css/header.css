@@ -1,0 +1,106 @@
+/* *************HEADER**************************************/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+  }
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a {
+    font-weight: bold;
+    color: inherit;
+}  
+
+.headerLogo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 15px;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+  }
+  
+  .headerLogo a {
+    font-size: 1.4em;
+    color: #091f40;
+  }
+  
+  .nav {
+    background-color: #091f40;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 12;
+
+  }
+
+  .nav li a {
+    padding: 22px 49px;
+    display: inline-block;
+
+  }
+  
+  .navList {
+    display: inline-block;
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+  }
+  
+  input {
+    display: inline-block;
+    background-color: #091f40;
+  
+    border: none;
+    border-bottom: 3px solid #fff;
+    padding: 5px 10px;
+  }
+  
+  .searchBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-flow: row wrap;
+    margin-right: 3em;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .goldy {
+    padding: 8px 0;
+    background-color: #deb406;
+  }
+  .goldy2 {
+    padding: 4px 0;
+    background-color: #deb406;
+  }
+
+
+/* ************FOOTER************************* */
+
+.fnav {
+  background-color: #091f40;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 49px;
+  flex-flow: row wrap;
+  margin-top: 51px;
+}
+
+.fnavList {
+  display: inline-block;
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}
